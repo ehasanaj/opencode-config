@@ -1,5 +1,30 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "chat": {
+      "description": "Chat-only assistant with online grounding; no local context",
+      "mode": "primary",
+      "prompt": "You are a chat-only assistant. Do not read local files or use local context. Only use online sources when needed. Be concise and conversational.",
+      "permission": {
+        "read": "deny",
+        "edit": "deny",
+        "glob": "deny",
+        "grep": "deny",
+        "list": "deny",
+        "bash": "deny",
+        "task": "deny",
+        "lsp": "deny",
+        "codesearch": "deny",
+        "external_directory": "deny",
+        "todowrite": "deny",
+        "todoread": "deny",
+        "skill": "deny",
+        "websearch": "allow",
+        "webfetch": "allow",
+        "question": "allow"
+      }
+    }
+  },
   "mcp": {
     "chrome-devtools": {
       "type": "local",
