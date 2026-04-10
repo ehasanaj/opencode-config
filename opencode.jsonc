@@ -25,6 +25,23 @@
       }
     }
   },
+  "command": {
+    "wiki-init": {
+      "description": "Initializes this folder as an agent wiki",
+      "agent": "build",
+      "template": "Initialize this wiki using the AGENTS.md protocol."
+    },
+    "wiki-ingest": {
+      "description": "Ingests and indexes all the documents in raw/",
+      "agent": "build",
+      "template": "Ingest everything currently in raw/. Index all documents found there."
+    },
+    "wiki-lint": {
+      "description": "Lints the wiki and fixes found issues",
+      "agent": "build",
+      "template": "Lint the wiki and fix straightforward issues."
+    }
+  },
   "mcp": {
     "chrome-devtools": {
       "type": "local",
