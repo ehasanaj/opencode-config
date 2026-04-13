@@ -1,0 +1,28 @@
+/* @theme custom-clean */
+
+@import 'gaia';
+
+:root {
+  --color-background: #f8fafc;
+  --color-foreground: #0f172a;
+  --color-highlight: #0f766e;
+  --color-dimmed: #475569;
+  padding: 56px;
+  font-size: 30px;
+}
+
+section {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: var(--color-highlight);
+}
+
+code {
+  background: rgba(15, 23, 42, 0.08);
+}
