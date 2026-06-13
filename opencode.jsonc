@@ -42,6 +42,12 @@
       "template": "Lint the wiki and fix straightforward issues."
     }
   },
+  "references": {
+    "rerune-server": {
+      "path": "/Users/eraldohasanaj/Development/rerune/rerune-server",
+      "description": "Use for Rerune server/backend implementation details."
+    }
+  },
   "mcp": {
     "chrome-devtools": {
       "type": "local",
