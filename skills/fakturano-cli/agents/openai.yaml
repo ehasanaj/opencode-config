@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fakturano CLI"
+  short_description: "Use the Fakturano CLI correctly"
+  default_prompt: "Use $fakturano-cli to inspect my Fakturano workspace."

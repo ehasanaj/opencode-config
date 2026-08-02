@@ -46,7 +46,15 @@
     "rerune-server": {
       "path": "/Users/eraldohasanaj/Development/rerune/rerune-server",
       "description": "Use for Rerune server/backend implementation details."
-    }
+    },
+    "roe_pdf_service": {
+      "path": "/Users/eraldohasanaj/Development/roe/roe_pdf_service",
+      "description": "Use for ROE PDF service implementation details."
+    },
+    "apicheckit": {
+      "path": "/Users/eraldohasanaj/Development/roe/apicheckit",
+      "description": "Use for API CheckIt implementation details."
+    },
   },
   "mcp": {
     "chrome-devtools": {
