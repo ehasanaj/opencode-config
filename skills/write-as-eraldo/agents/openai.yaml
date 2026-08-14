@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write as Eraldo"
+  short_description: "Draft authentic writing in Eraldo’s voice"
+  default_prompt: "Use $write-as-eraldo to draft a candid LinkedIn post about a technical lesson."

@@ -43,30 +43,20 @@
     }
   },
   "references": {
-    "rerune-server": {
-      "path": "/Users/eraldohasanaj/Development/rerune/rerune-server",
-      "description": "Use for Rerune server/backend implementation details."
-    },
-    "roe_pdf_service": {
-      "path": "/Users/eraldohasanaj/Development/roe/roe_pdf_service",
-      "description": "Use for ROE PDF service implementation details."
-    },
-    "apicheckit": {
-      "path": "/Users/eraldohasanaj/Development/roe/apicheckit",
-      "description": "Use for API CheckIt implementation details."
-    },
+    // "rerune-server": {
+    //   "path": "/Users/eraldohasanaj/Development/rerune/rerune-server",
+    //   "description": "Use for Rerune server/backend implementation details."
+    // },
+    // "roe_pdf_service": {
+    //   "path": "/Users/eraldohasanaj/Development/roe/roe_pdf_service",
+    //   "description": "Use for ROE PDF service implementation details."
+    // },
+    // "apicheckit": {
+    //   "path": "/Users/eraldohasanaj/Development/roe/apicheckit",
+    //   "description": "Use for API CheckIt implementation details."
+    // },
   },
   "mcp": {
-    "chrome-devtools": {
-      "type": "local",
-      "command": ["npx", "-y", "chrome-devtools-mcp@latest"],
-      "enabled": false
-    },
-    "next-devtools": {
-      "type": "local",
-      "command": ["npx", "-y", "next-devtools-mcp@latest"],
-      "enabled": false
-    },
     "playwright": {
       "type": "local",
       "command": [
